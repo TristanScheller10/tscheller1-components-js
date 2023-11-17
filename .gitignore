@@ -5,7 +5,6 @@
 
 
 # local env files
-.env*.local 
 
 
 # dependencies
@@ -17,7 +16,6 @@
 # project files and folders
 /docs
 /data
-
 
 
 
