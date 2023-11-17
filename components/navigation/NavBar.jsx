@@ -11,8 +11,8 @@ import {IoLogoGithub} from 'react-icons/io5'
                             <figcaption className="text-sm">pixel diviant</figcaption>
                           </figure>
                     </Link></li>
-                <li><Link className="text-blue-600 font-medium" href="/employees">employees</Link></li>
-                <li><Link className="text-blue-600 font-medium" href="/employee">
+                <li><Link className="text-blue-600 font-medium" href="/foods">foods</Link></li>
+                <li><Link className="text-blue-600 font-medium" href="/foods">
                        <IoLogoGithub className="w-6 h-6 text-gray-500"/>
                     </Link></li>
             </ul>
