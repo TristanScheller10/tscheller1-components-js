@@ -7,7 +7,7 @@ import serviceKey from "@/config/serviceKey"
  if(!getApps().length){
   initializeApp({
     credential: admin.credential.cert(serviceKey),
-    databaseURL: "YOUR REAL TIME DATA BASE URL HERE",
+    databaseURL: "https://component-pages-default-rtdb.firebaseio.com",
     databaseAuthVariableOverride: {
       uid: "your service name"
     }
