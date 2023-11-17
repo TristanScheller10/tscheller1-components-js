@@ -1,14 +1,14 @@
 
 import { PageHeader } from "../../components/header/PageHeader"
-import { getEmployees } from "@/lib/firebase/getEmployees";
+import { getFoods } from "@/lib/firebase/getFoods";
  
 
 // Link element to create a dynamic route.
 
  
 
- async function EmployeesPage (  ) {
-   const payload = await getEmployees();
+ async function FoodsPage (  ) {
+   const payload = await getFoods();
     const keys =  Object.keys(payload)
     const values = Object.values(payload)
     const entries = Object.entries(payload)
@@ -18,7 +18,7 @@ import { getEmployees } from "@/lib/firebase/getEmployees";
 
    return(
     <>
-    <PageHeader title="All Employees Display" tagline="example of displaying all items in data"/>
+    <PageHeader title="All Foods Display" tagline="example of displaying all items in data"/>
     <main className=" min-h-screen py-24">
        {
           values.map(item=> <Card  key={item.uid} {...item}/>)
@@ -31,4 +31,4 @@ import { getEmployees } from "@/lib/firebase/getEmployees";
 }
 
 
-export default EmployeesPage
+export default FoodsPage

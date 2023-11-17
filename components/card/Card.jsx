@@ -2,7 +2,7 @@ import Link from 'next/link'
 import Image from 'next/image'
 
 
-function Card ({uid, fullname, position, profileImage }){
+function Card ({food_name, food_category, position, profileImage }){
     return (
            <aside>
             <h2>{fullname}</h2>
@@ -14,7 +14,7 @@ function Card ({uid, fullname, position, profileImage }){
             />
             <p>{position}</p>
             <p>{uid}</p>
-            <Link className='text-blue-600 font-semibold' href={`/employee/${uid}`}>{fullname} using id: {uid}</Link>
+            <Link className='text-blue-600 font-semibold' href={`/food/${uid}`}>{fullname} using id: {uid}</Link>
   
            </aside>
     )

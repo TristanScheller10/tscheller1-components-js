@@ -14,7 +14,7 @@ function SingleEmployeeCard ({uid, fullname, position, profileImage }){
             />
             <p>{position}</p>
             <p>{uid}</p>
-            <Link className='text-blue-600 font-semibold' href={`/employees`}>Back to Employees Page</Link>
+            <Link className='text-blue-600 font-semibold' href={`/foods`}>Back to Employees Page</Link>
   
            </aside>
     )
