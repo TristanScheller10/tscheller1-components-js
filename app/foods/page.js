@@ -21,7 +21,7 @@ import { getFoods } from "@/lib/firebase/getFoods";
     <PageHeader title="All Foods Display" tagline="example of displaying all items in data"/>
     <main className=" min-h-screen py-24">
        {
-          values.map(item=> <Card  key={item.uid} {...item}/>)
+          values.map(item=> <Card  key={item.id} {...item}/>)
        }
      </main>
     </>
