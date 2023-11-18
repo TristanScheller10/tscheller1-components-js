@@ -7,7 +7,7 @@
 
       styles
 */
- 
+
 
 import { NavBar } from '../components/navigation/NavBar'
 

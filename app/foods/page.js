@@ -1,7 +1,9 @@
+import Link from 'next/link'
 
 import { PageHeader } from "../../components/header/PageHeader"
 import { Card } from "../../components/card/Card";
 import { NavBar } from "@/components/navigation/NavBar";
+import {Footer} from "../../components/footer/Footer"
 import { getFoods } from "@/lib/firebase/getFoods";
 
  
@@ -22,6 +24,7 @@ import { getFoods } from "@/lib/firebase/getFoods";
           values.map(item=> <Card  key={item.id} {...item}/>)
        }
      </main>
+     <Footer/>
     </>
    )
   
