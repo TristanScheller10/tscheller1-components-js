@@ -22,7 +22,7 @@ async function getood(id) {
     <NavBar/>
     <PageHeader title="Single Record Display" tagline="Check out more info"/>
     <main className="py-6 flex flex-wrap justify-center">
-     <SingleRecordCard {...foodData}/>
+     <SingleFoodCard {...foodData}/>
     </main>
      <Footer/>
     </>
