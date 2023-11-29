@@ -3,8 +3,8 @@ import Link from 'next/link'
 import {NavBar} from "../../../components/navigation/NavBar"
 import {SingleRecordCard} from "../../../components/card/SingleFoodCard"
 import {getFoods} from "@/lib/firebase/getFoods"
-import { PageHeader } from "../../../components/header/PageHeader"
-import { Footer } from "../../../components/footer/Footer"
+import {PageHeader} from "../../../components/header/PageHeader"
+import {Footer} from "../../../components/footer/Footer"
 
 async function getood(id) {
   const payload = await getFoods(id)
